@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/aariasc/intro-to-nightwatch/issues"
   },
-  "homepage": "https://github.com/aariasc/intro-to-nightwatch#readme"
+  "homepage": "https://github.com/aariasc/intro-to-nightwatch#readme",
+  "dependencies": {
+    "chromedriver": "^2.33.2",
+    "eslint": "^4.10.0",
+    "jshint": "^2.9.5",
+    "nightwatch": "^0.9.16",
+    "selenium-server-standalone-jar": "^3.4.0"
+  }
 }

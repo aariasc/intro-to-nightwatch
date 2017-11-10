@@ -1,0 +1,17 @@
+# This is a sample Wordpress site, used for the demo
+version: "2"
+services:
+  wordpress-db:
+    image: mariadb
+    ports:
+      - "8081:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: mySecretPwd!
+  wordpress-site:
+    image: wordpress
+    ports:
+      - "8080:80"
+    links:
+      - wordpress-db:mysql
+    environment:
+      WORDPRESS_DB_PASSWORD: mySecretPwd!
