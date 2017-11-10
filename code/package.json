@@ -1,0 +1,19 @@
+{
+  "name": "nightwatch-example",
+  "version": "1.0.0",
+  "description": "Intro to Nightwatch - Big Mountain Data & Dev Conference",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aariasc/intro-to-nightwatch.git"
+  },
+  "author": "Andres Arias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aariasc/intro-to-nightwatch/issues"
+  },
+  "homepage": "https://github.com/aariasc/intro-to-nightwatch#readme"
+}
