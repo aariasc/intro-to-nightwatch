@@ -4,7 +4,7 @@ module.exports = {
     live_output: true,
     // custom_commands_path: './commands',
     custom_assertions_path:'./assertions',
-    // page_objects_path: './pages',
+    page_objects_path: './pages',
 
     test_settings: {
       default: {

@@ -11,6 +11,7 @@ module.exports = {
   '@tags': ['basic'],
   'Step 1. Check Wordpress title bar and main title': function (browser) {
     browser
+    .waitForElementVisible('.site-title', 1000)
     .assert.title("Wordpress Test Site – Just another WordPress site")
     .assert.containsText('.site-title', 'WORDPRESS');
   },
