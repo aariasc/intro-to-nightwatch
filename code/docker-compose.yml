@@ -10,7 +10,7 @@ services:
   wordpress-site:
     image: wordpress
     ports:
-      - "8080:80"
+      - "80:80"
     links:
       - wordpress-db:mysql
     environment:
