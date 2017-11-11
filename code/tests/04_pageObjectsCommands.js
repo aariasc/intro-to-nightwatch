@@ -22,7 +22,6 @@ module.exports = {
     searchBox.performSearch(wordToSearch);
 
     var searchResults = browser.page.searchResults();
-    searchResults.expect.element('@title').to.be.visible.after(5000);
-    searchResults.expect.element('@title').text.to.contain(wordToSearch.toUpperCase());
+    searchResults.validateSearchResults(wordToSearch);
   }
 };
