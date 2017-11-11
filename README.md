@@ -36,7 +36,7 @@ node .\node_modules\nightwatch\bin\nightwatch -c .\nightwatch.js -t .\tests\01_b
 
 Run a specific tag
 ```
-node .\node_modules\nightwatch\bin\nightwatch -c .\nightwatch.js -t basic
+node .\node_modules\nightwatch\bin\nightwatch -c .\nightwatch.js --tag basic
 ```
 
 Run on a local Chrome (not using the container)
