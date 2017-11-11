@@ -24,6 +24,8 @@ you can change the ports to whatever you want.  Be sure that the ports match you
 
 ## To run the Nightwatch Tests
 
+First run `npm install`
+
 Run all tests
 ```
 node .\node_modules\nightwatch\bin\nightwatch -c .\nightwatch.js
