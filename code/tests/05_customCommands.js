@@ -8,7 +8,7 @@ module.exports = {
     browser.end();
   },
 
-  '@tags': ['pageobjects'],
+  '@tags': ['commands'],
   'Log into Wordpress Admin Section': function (browser) {
     var username = 'admin';
     var password = 'admin123';

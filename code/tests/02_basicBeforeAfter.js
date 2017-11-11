@@ -8,7 +8,7 @@ module.exports = {
     browser.end();
   },
 
-  '@tags': ['basic'],
+  '@tags': ['basic','dev'],
   'Step 1. Check Wordpress title bar and main title': function (browser) {
     browser
     .waitForElementVisible('.site-title', 1000)
